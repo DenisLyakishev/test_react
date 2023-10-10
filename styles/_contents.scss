@@ -1,0 +1,106 @@
+.contents-section{
+    padding-top: 211.5px;
+
+    &__title{
+        text-align: center;
+    }
+
+    &__subtitle{
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    &__cards{
+        display: flex;
+        justify-content: center;
+        padding-top: 44px;
+        gap: 33px;
+    }
+
+    &__card{
+        width: 476px;
+        height: 545px;
+        background: white;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start; 
+        align-items: center; 
+    }
+
+    &__card-title{
+        padding-top: 50px;
+        color: black;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+
+    &__card-paragraphe{
+        padding-top: 10px;
+        margin: 10px;
+        width: 283px;
+        height: 72px;
+        font-weight: 400;
+        color: black;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    &__card-button{
+        padding-top: 57px;
+        width: 96px;
+        height: 25px;
+        padding: 10px 30px;
+        background-color: #4452FE; //цвета кнопок не правильные
+        text-align: center;
+    }
+
+    &__card-button-free{
+        padding-top: 40px;
+        width: 96px;
+        height: 25px;
+        padding: 10px 30px;
+        background-color: #4452FE;
+        text-align: center;
+    }
+
+    &__macbook{
+        padding-top: 57px;
+        width: 405px; 
+        height: 327px; 
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start; 
+        align-items: center;
+    }
+
+    &__screen-background{
+        width: 330px; 
+        height: 222px; 
+        top: -0px; 
+        background: black; 
+        border-top-left-radius: 4.56px; 
+        border-top-right-radius: 4.56px; 
+        border: 1.52px #9FA2A5 solid;
+    }
+
+    &__image-screen{
+        margin-top: 9.13px;
+        margin-left: 9.13px;
+        margin-right: 9.13px;
+    }
+
+    &__macbase{
+        width: 405px; 
+        height: 50px; 
+        color: black;
+        background: red; // не получается !размер и цвет не применяется 
+    }
+
+    &__boards{
+        width: 379px; 
+        height: 276px; 
+        border-radius: 14px;
+    }
+}

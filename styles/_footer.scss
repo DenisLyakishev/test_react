@@ -1,0 +1,55 @@
+.footer-links{
+
+   &__links{
+     padding-top: 287px;
+   }
+  
+   &__title{
+     font-size: 20px;
+     line-height: 30px;
+     margin-bottom: 40px;
+     margin-right: 75px;
+   } 
+
+   &__item{
+    margin-bottom: 19px;
+   }
+   &__link{
+    font-size: 16px;
+    line-height: 24px;
+   }
+
+   &__list_contact
+   {
+    margin-left: 199px;
+   }
+
+   &__contact_adress{
+    margin-bottom: 10px;
+   }
+
+   &__adress{
+    font-size: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
+   }
+
+   &__contact_phone{
+    margin-bottom: 10px;
+   }
+
+   &__phone{
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+   }
+
+   &__social_media{
+    padding-top: 20px;
+    padding-bottom: 20px;
+   }
+
+   &__social_media_item{
+    margin-right: 24px;
+   }
+}
