@@ -6,15 +6,12 @@
 
   background-color: var(--bg-color);
 
-  @include xl-max {
+  @media screen and (max-width: $xl) {
     display: block;
     padding-left: 34px;
     padding-right: 16px;
   }
 
-  @include xl-min {
-    color: red;
-  }
   &__inner {
     display: flex;
     align-items: center;
@@ -63,12 +60,6 @@
 
     @media screen and (max-width: $xl) {
       display: block;
-    }
-  }
-
-  &__login-button {
-    @include md-max {
-      display: none;
     }
   }
 }

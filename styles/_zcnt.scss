@@ -1,5 +1,5 @@
-.content-section{
-    padding-top: 230px;
+.zcnt-section{
+    padding-top:  230px;
  
     &__content{
         margin:0 auto;
@@ -11,11 +11,12 @@
         display: flex;
         justify-content:flex-start; 
         align-items: center; 
+        flex-direction: row;
         gap: 120px;
     }
 
     &__left-content{
-        width: 418px;
+        width: 544px;
         height: 213px;
         padding-left: 94px;
         padding-top: 17px ;
@@ -35,10 +36,9 @@
     }
 
     &__link {
-        width: 160px;
-        height: 52px;
         text-align: center;
         font-size: 17px;
+        background-color: #4452FE;
     }
     &__chart {
         width: 585px;

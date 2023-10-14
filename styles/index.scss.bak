@@ -1,11 +1,14 @@
 @import "./mixins.scss";
-@import "./grid.scss";
+
+//@import "./grid.scss";
 @import "./section.scss";
 
 @import "./features.scss";
 @import "./welcome.scss";
-@import "./contents.scss";
+//@import "./contents.scss";
 @import "./header.scss";
+
+
 
 
 @import "./_zdarkcnt.scss";
