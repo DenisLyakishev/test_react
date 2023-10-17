@@ -2,6 +2,16 @@
 
    &__links{
      padding-top: 287px;
+     display: flex;
+     justify-content: center;
+     @include sm-max {
+      padding-top: 208px;
+      padding-left: 114px;
+      display: flex;
+      flex-direction: column;
+      justify-content:flex-start;
+      gap: 75px;
+      }
    }
   
    &__title{
@@ -22,6 +32,9 @@
    &__list_contact
    {
     margin-left: 199px;
+    @include sm-max{
+      margin-left: 0px;
+    }
    }
 
    &__contact_adress{
@@ -51,5 +64,6 @@
 
    &__social_media_item{
     margin-right: 24px;
+
    }
 }
