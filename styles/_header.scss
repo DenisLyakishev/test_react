@@ -15,6 +15,7 @@
   @include xl-min {
     color: red;
   }
+
   &__inner {
     display: flex;
     align-items: center;
@@ -67,8 +68,52 @@
   }
 
   &__login-button {
-    @include md-max {
+    @media screen and (max-width: $xl) {
       display: none;
+    }
+  }
+
+  &__burger-icon,
+  &__close-icon {
+    display: none;
+
+    &.visible {
+      display: block;
+    }
+  }
+
+  .mobile-menu {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 120px;
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+    z-index: 1;
+
+    background-color: white;
+
+    &.visible {
+      display: block;
+    }
+
+    &__list {
+      margin-bottom: 60px;
+    }
+
+    &__link {
+      display: block;
+      padding: 10px 0;
+      color: black;
+      border-bottom: 1px solid black;
+    }
+
+    &__login-button {
+      display: block;
+      margin: 0 auto;
+      color: #000;
+      border-color: #000;
     }
   }
 }

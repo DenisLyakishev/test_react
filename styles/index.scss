@@ -7,15 +7,11 @@
 @import "./contents.scss";
 @import "./header.scss";
 
-
 @import "./_zdarkcnt.scss";
 @import "./_zpartners.scss";
 @import "./_ztestimonials.scss";
 @import "./_zcnt.scss";
 @import "./_zfooter.scss";
-
-
-
 
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500&display=swap");
 
@@ -34,6 +30,10 @@ body {
   font-family: "Work Sans", sans-serif;
   background-color: var(--bg-color);
   color: #fff;
+
+  &.hidden {
+    overflow-y: hidden;
+  }
 }
 
 ul {
@@ -67,6 +67,7 @@ p {
 p {
   font-weight: 400;
 }
+
 /* ------------ */
 
 .button {
@@ -89,7 +90,7 @@ p {
 }
 
 .flex {
-    display: flex;
+  display: flex;
 
   &.justify-center {
     justify-content: center;

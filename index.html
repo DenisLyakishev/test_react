@@ -29,12 +29,28 @@
         </ul>
       </nav>
       <div class="flex">
-        <button class="header__login-button  ">Login</button>
+        <button class="header__login-button button button--small">
+          Login
+        </button>
         <button class="header__mobile-button">
-          <img class="header__mobile-icon" src="./images/mobile-menu-icon.svg" alt="Иконка мобильного меню" />
+          <img class="header__burger-icon visible" src="./images/mobile-menu-icon.svg" alt="Иконка мобильного меню" />
+          <img class="header__close-icon " src="./images/close-icon.svg" alt="Закрытие мобильного меню" />
         </button>
       </div>
-    </div>
+      <div class="header__mobile-menu mobile-menu ">
+        <ul class="mobile-menu__list">
+          <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Home</a></li>
+          <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Product</a></li>
+          <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">About</a></li>
+          <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Contact</a></li>
+        </ul>
+        <!-- <button class="button--small  header__mobile-menu__login-button">Login</button> -->
+        <button class="mobile-menu__login-button button button--small">Login</button>
+
+
+
+      </div>
+    
   </header>
   <main>
     <section class="welcome-section">
@@ -157,7 +173,7 @@
               <img src="./images/SCREEN_MASK.png" alt="SCREEN_MASK" class="zdarkcnt-section__image-screen">
             </div>
             <div class="zdarkcnt-section__base">
-              <img src="./images/grip.svg" alt="Grip" " >
+              <img src="./images/grip.svg" alt="Grip">
                 </div>
                 <div class=" zdarkcnt-section__base-bottom">
             </div>
@@ -320,13 +336,13 @@
               </ul>
             </div>
             <div class="ztestimonials-section__paragraphe">
-              Slate helps you see how many 
-              more days you need to work to 
-              reach your financial goal for the 
-              month and year. Slate helps 
-              you see how many more days 
-              you need to work to reach your 
-              financial goal for the month and 
+              Slate helps you see how many
+              more days you need to work to
+              reach your financial goal for the
+              month and year. Slate helps
+              you see how many more days
+              you need to work to reach your
+              financial goal for the month and
               year.your financial <br>
               goal for the month and year.
 
@@ -345,13 +361,13 @@
               </ul>
             </div>
             <div class="ztestimonials-section__paragraphe">
-              Slate helps you see how many 
-              more days you need to work to 
-              reach your financial goal for the 
-              month and year. Slate helps 
-              you see how many more days 
-              you need to work to reach your 
-              financial goal for the month and 
+              Slate helps you see how many
+              more days you need to work to
+              reach your financial goal for the
+              month and year. Slate helps
+              you see how many more days
+              you need to work to reach your
+              financial goal for the month and
               year.your financial <br>
               goal for the month and year.
             </div>
@@ -369,13 +385,13 @@
               </ul>
             </div>
             <div class="ztestimonials-section__paragraphe">
-              Slate helps you see how many 
-              more days you need to work to 
-              reach your financial goal for the 
-              month and year. Slate helps 
-              you see how many more days 
-              you need to work to reach your 
-              financial goal for the month and 
+              Slate helps you see how many
+              more days you need to work to
+              reach your financial goal for the
+              month and year. Slate helps
+              you see how many more days
+              you need to work to reach your
+              financial goal for the month and
               year.your financial <br>
               goal for the month and year.
             </div>
@@ -393,13 +409,13 @@
               </ul>
             </div>
             <div class="ztestimonials-section__paragraphe">
-              Slate helps you see how many 
-              more days you need to work to 
-              reach your financial goal for the 
-              month and year. Slate helps 
-              you see how many more days 
-              you need to work to reach your 
-              financial goal for the month and 
+              Slate helps you see how many
+              more days you need to work to
+              reach your financial goal for the
+              month and year. Slate helps
+              you see how many more days
+              you need to work to reach your
+              financial goal for the month and
               year.your financial <br>
               goal for the month and year.
             </div>
@@ -418,7 +434,7 @@
           </a>
         </div>
 
-          <img src="./images/Line Chart 1.png" alt="Chart1"  class="zcnt-section__chart">
+        <img src="./images/Line Chart 1.png" alt="Chart1" class="zcnt-section__chart">
 
 
       </div>
@@ -427,88 +443,88 @@
         <a href="#" class="zcnt-section__link-mobile button--large">
           Try for free
         </a>
-        <img src="./images/Line Chart 2.png" alt="Chart1"  class="zcnt-section__chart-mobile">
+        <img src="./images/Line Chart 2.png" alt="Chart1" class="zcnt-section__chart-mobile">
 
     </section>
 
   </main>
-  <footer class="zfooter-links">
-    <nav class="zfooter-links__links ">
-      <ul class = "zfooter-links__list">
+  <footer class="footer">
+    <nav class="footer__links ">
+      <ul class="footer__list">
         <li>
-          <h3 class="zfooter-links__title"> Fingertipe</h3>
+          <h3 class="footer__title"> Fingertipe</h3>
         </li>
-        <li class="zfooter-links__item">
-          <a href="#" class="zfooter-links__link"> Home </a>
+        <li class="footer__item">
+          <a href="#" class="footer__link"> Home </a>
         </li>
-        <li class="zfooter-links__item">
-          <a href="#" class="zfooter-links__link">Examples</a>
+        <li class="footer__item">
+          <a href="#" class="footer__link">Examples</a>
         </li>
-        <li class="zfooter-links__item">
-          <a href="#" class="zfooter-links__link">Pricing</a>
+        <li class="footer__item">
+          <a href="#" class="footer__link">Pricing</a>
         </li>
-        <li class="zfooter-links__item">
-          <a href="#" class="zfooter-links__link"> Updates</a>
+        <li class="footer__item">
+          <a href="#" class="footer__link"> Updates</a>
         </li>
       </ul>
       <ul>
         <li>
-          <h3 class="zfooter-links__title">Resources</h3>
+          <h3 class="footer__title">Resources</h3>
         </li>
-        <li class="zfooter-links__item">
-          <a href="#" class="zfooter-links__link"> Home </a>
+        <li class="footer__item">
+          <a href="#" class="footer__link"> Home </a>
         </li>
-        <li class="zfooter-links__item">
-          <a href="#" class="zfooter-links__link">Examples</a>
+        <li class="footer__item">
+          <a href="#" class="footer__link">Examples</a>
         </li>
-        <li class="zfooter-links__item">
-          <a href="#" class="zfooter-links__link">Pricing</a>
+        <li class="footer__item">
+          <a href="#" class="footer__link">Pricing</a>
         </li>
-        <li class="zfooter-links__item">
-          <a href="#" class="zfooter-links__link"> Updates</a>
+        <li class="footer__item">
+          <a href="#" class="footer__link"> Updates</a>
         </li>
       </ul>
       <ul>
         <li>
-          <h3 class="zfooter-links__title">About</h3>
+          <h3 class="footer__title">About</h3>
         </li>
-        <li class="zfooter-links__item">
-          <a href="#" class="zfooter-links__link"> Home </a>
+        <li class="footer__item">
+          <a href="#" class="footer__link"> Home </a>
         </li>
-        <li class="zfooter-links__item">
-          <a href="#" class="zfooter-links__link">Examples</a>
+        <li class="footer__item">
+          <a href="#" class="footer__link">Examples</a>
         </li>
-        <li class="zfooter-links__item">
-          <a href="#" class="zfooter-links__link">Pricing</a>
+        <li class="footer__item">
+          <a href="#" class="footer__link">Pricing</a>
         </li>
-        <li class="zfooter-links__item">
-          <a href="#" class="zfooter-links__link"> Updates</a>
+        <li class="footer__item">
+          <a href="#" class="footer__link"> Updates</a>
         </li>
       </ul>
-      <ul class="zfooter-links__list_contact">
-        <li class="zfooter-links__contact_adress">
+      <ul class="footer__list_contact">
+        <li class="footer__contact_adress">
           <div class="flex align-center">
             <img src="./images/bx_bx-map.svg" alt="Положение на карте">
-            <span class="zfooter-links__adress"> 7480 Mockingbird Hill undefined</span>
+            <span class="footer__adress"> 7480 Mockingbird Hill undefined</span>
           </div>
         </li>
-        <li class="zfooter-links__contact_phone">
+        <li class="footer__contact_phone">
           <div class="flex align-center">
             <img src="./images/ic_baseline-phone-android.svg" alt="Телефон">
-            <span class="zfooter-links__phone">(239) 555-0108</span>
+            <span class="footer__phone">(239) 555-0108</span>
           </div>
         </li>
-        <li class="zfooter-links__social_media">
+        <li class="footer__social_media">
           <div>
-            <img src="./images/ant-design_twitter-outlined.png" alt="Twitter" class="zfooter-links__social_media_item">
-            <img src="./images/ant-design_facebook-filled.png" alt="Facebook" class="zfooter-links__social_media_item">
+            <img src="./images/ant-design_twitter-outlined.png" alt="Twitter" class="footer__social_media_item">
+            <img src="./images/ant-design_facebook-filled.png" alt="Facebook" class="footer__social_media_item">
             <img src="./images/ant-design_linkedin-filled.png" alt="Linkedin">
           </div>
         </li>
       </ul>
     </nav>
   </footer>
-
+  <script src="./script.js"></script>
 </body>
 
 </html>

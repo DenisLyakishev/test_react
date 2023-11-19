@@ -1,15 +1,15 @@
-.zdarkcnt-section{
+.zdarkcnt-section {
     padding-top: 211.5px;
 
     @include sm-max {
         padding-top: 180px;
-      }
+    }
 
-    &__title{
+    &__title {
         text-align: center;
     }
 
-    &__subtitle{
+    &__subtitle {
         padding-top: 20px;
         text-align: center;
 
@@ -17,13 +17,14 @@
             padding-top: 10px;
             padding-left: 125px;
             padding-right: 125px;
+
             br {
                 display: none;
-              }
-          }
+            }
+        }
     }
 
-    &__cards{
+    &__cards {
         display: flex;
         justify-content: center;
         padding-top: 44px;
@@ -32,38 +33,37 @@
         @include lg-max {
             align-items: center;
             flex-direction: column;
-          }
+        }
 
         @include sm-max {
             flex-direction: column;
-          }
+        }
     }
 
-    &__card{
+    &__card {
         width: 476px;
-        //height: 624px;
         background: white;
         border-radius: 10px;
         display: flex;
         flex-direction: column;
-        justify-content: flex-start; 
-        align-items: center; 
+        justify-content: flex-start;
+        align-items: center;
 
         @include sm-max {
             width: 348px;
-          }
+        }
     }
 
-    &__card-title{
+    &__card-title {
         margin-top: 40px;
-        padding:10px;
+        padding: 10px;
         color: black;
         font-size: 20px;
         font-weight: 500;
         line-height: 30px;
     }
 
-    &__card-paragraphe{
+    &__card-paragraphe {
         margin-top: 10px;
         padding: 10px;
         font-weight: 400;
@@ -72,7 +72,7 @@
         text-align: center;
     }
 
-    &__card-button{
+    &__card-button {
         width: auto;
         height: 52px;
         padding: 10px 36px;
@@ -80,63 +80,60 @@
         background-color: #4452FE;
         text-align: center;
 
-        &__sign{
+        &__sign {
             margin-top: 67px;
         }
-        &__free{
+
+        &__free {
             margin-top: 30px;
         }
     }
 
-    &__macbook{
+    &__macbook {
         margin-top: 77px;
-        width: 405px;//476px; 
-        height: 222px; 
+        width: 405px;
+        height: 222px;
         display: flex;
         flex-direction: column;
-        justify-content: flex-start; 
+        justify-content: flex-start;
         align-items: center;
-        //background: #343434;
         overflow: hidden;
         border-radius: 4px;
 
         @include lg-max {
             margin-bottom: 40px;
-          }
-        @include sm-max{
+        }
+
+        @include sm-max {
             width: 297px;
             height: 178px;
 
         }
-
-
     }
 
-    &__screen-background{
-        width: 330px; 
-        height: 220px; 
-        //top: -0px; 
-        background: black; 
-        border-top-left-radius: 4.56px; 
-        border-top-right-radius: 4.56px; 
+    &__screen-background {
+        width: 330px;
+        height: 220px;
+        background: black;
+        border-top-left-radius: 4.56px;
+        border-top-right-radius: 4.56px;
         border: 1.52px #9FA2A5 solid;
-        //margin-bottom: 10px;
-        @include sm-max{
+
+        @include sm-max {
             width: 242px;
             height: 169px;
 
         }
     }
 
-    &__image-screen{
-        width: 312px; 
-        height: 195px; 
+    &__image-screen {
+        width: 312px;
+        height: 195px;
         margin-top: 9.13px;
         margin-left: 9.13px;
         margin-right: 9.13px;
 
-
-        @include sm-max{
+        @include sm-max {
             width: 228px;
             height: 150px;
             margin-top: 6px;
@@ -145,33 +142,28 @@
         }
     }
 
-    &__base{
-        width: 405px; 
-        height: 8px; 
+    &__base {
+        width: 405px;
+        height: 8px;
         background: #D8D8D8;
 
         display: flex;
         flex-direction: column;
-        justify-content: flex-start; 
+        justify-content: flex-start;
         align-items: center;
     }
 
-    &__base-bottom{
-       // margin-bottom: 40px;
-        width: 405px; 
-        height: 4px; 
+    &__base-bottom {
+        width: 405px;
+        height: 4px;
         background: #9FA2A5;
-
     }
 
-
-
-     &__boards{
+    &__boards {
         margin-top: 30px;
-       // width:  379px; 
-       // height: 276px; 
         border-radius: 14px;
-        @include sm-max{
+
+        @include sm-max {
             width: 280px;
             height: 204px;
         }

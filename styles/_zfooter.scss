@@ -1,69 +1,71 @@
-.zfooter-links{
+.footer {
 
-   &__links{
-     padding-top: 287px;
-     display: flex;
-     justify-content: center;
-     @include sm-max {
+  &__links {
+    padding-top: 287px;
+    display: flex;
+    justify-content: center;
+
+    @include sm-max {
       padding-top: 208px;
       padding-left: 114px;
       display: flex;
       flex-direction: column;
-      justify-content:flex-start;
+      justify-content: flex-start;
       gap: 75px;
-      }
-   }
-  
-   &__title{
-     font-size: 20px;
-     line-height: 30px;
-     margin-bottom: 40px;
-     margin-right: 75px;
-   } 
+    }
+  }
 
-   &__item{
+  &__title {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 40px;
+    margin-right: 75px;
+  }
+
+  &__item {
     margin-bottom: 19px;
-   }
-   &__link{
+  }
+
+  &__link {
     font-size: 16px;
     line-height: 24px;
-   }
+  }
 
-   &__list_contact
-   {
+  &__list_contact {
     margin-left: 199px;
-    @include sm-max{
+
+    @include sm-max {
       margin-left: 0px;
     }
-   }
+  }
 
-   &__contact_adress{
+  &__contact_adress {
     margin-bottom: 10px;
-   }
+  }
 
-   &__adress{
+  &__adress {
     font-size: 16px;
     padding-left: 8px;
     padding-right: 8px;
-   }
+  }
 
-   &__contact_phone{
+  &__contact_phone {
     margin-bottom: 10px;
-   }
+  }
 
-   &__phone{
+  &__phone {
     font-size: 16px;
     padding-left: 10px;
     padding-right: 10px;
-   }
+  }
 
-   &__social_media{
+  &__social_media {
     padding-top: 20px;
     padding-bottom: 20px;
-   }
+  }
 
-   &__social_media_item{
+  &__social_media_item {
     margin-right: 24px;
 
-   }
+  }
 }

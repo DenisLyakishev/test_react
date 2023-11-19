@@ -1,21 +1,23 @@
-.zcnt-section{
-    padding-top:  230px;
+.zcnt-section {
+    padding-top: 230px;
+
     @include sm-max {
-        padding-top:  151px;
+        padding-top: 151px;
     }
- 
-    &__content{
-        margin:0 auto;
+
+    &__content {
+        margin: 0 auto;
         background: #343434;
         border-radius: 33px;
         overflow: hidden;
         width: 1219px;
         height: 370px;
         display: flex;
-        justify-content:flex-start; 
-        align-items: center; 
+        justify-content: flex-start;
+        align-items: center;
         flex-direction: row;
         gap: 120px;
+
         @include sm-max {
             display: none;
         }
@@ -23,20 +25,20 @@
 
     }
 
-    &__left-content{
+    &__left-content {
         width: 544px;
         height: 213px;
         padding-left: 94px;
-        padding-top: 17px ;
-        padding-bottom: 17px ;
+        padding-top: 17px;
+        padding-bottom: 17px;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        align-items: flex-start; 
+        align-items: flex-start;
         gap: 37px;
     }
 
-    &__headline{
+    &__headline {
         width: 492px;
         font-size: 52px;
         font-weight: 400;
@@ -47,26 +49,28 @@
         text-align: center;
         font-size: 17px;
         background-color: #4452FE;
-        
+
     }
+
     &__chart {
         width: 585px;
         height: 100%;
     }
 
-    &__content-mobile{
+    &__content-mobile {
         display: none;
+
         @media screen and (max-width: $sm) {
             display: flex;
             flex-direction: column;
-            justify-content:flex-start;
-            align-items: center; 
+            justify-content: flex-start;
+            align-items: center;
 
             gap: 23px;
         }
     }
 
-    &__headline-mobile{
+    &__headline-mobile {
         text-align: center;
         width: 375px;
         font-size: 52px;
@@ -76,14 +80,15 @@
         padding-right: 10px;
     }
 
-    &__link-mobile{
+    &__link-mobile {
         text-align: center;
         font-size: 17px;
         background-color: #4452FE;
         width: 232px;
 
     }
-    &__chart-mobile{
+
+    &__chart-mobile {
         padding-top: 84px;
         width: 541px;
         height: 473.5px;
