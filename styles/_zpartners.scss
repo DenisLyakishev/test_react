@@ -1,0 +1,105 @@
+.zpartners-section {
+    padding-top: 210px;
+
+
+    &__title {
+        text-align: center;
+    }
+
+    &__subtitle {
+        padding-top: 20px;
+        text-align: center;
+
+        @include lg-max {
+            br {
+                display: none;
+            }
+        }
+
+
+    }
+
+    &__images {
+        margin-top: 50px;
+        scroll-padding-bottom: 60px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 74px;
+
+        width: 832px;
+        height: 70.5px;
+
+        @include lg-max {
+            width: 290px;
+            height: auto;
+            flex-wrap: wrap;
+            align-content: space-between;
+            gap: 50px;
+
+        }
+
+        &__apple {
+            width: 60px;
+            height: 60px;
+        }
+
+        &__apiary {
+            width: 60px;
+            height: 60.7px;
+        }
+
+        &__android {
+            width: 60px;
+            height: 70.5px;
+        }
+
+        &__basecamp {
+            width: 72px;
+            height: 60px;
+        }
+
+        &__basecamp {
+            width: 72px;
+            height: 60px;
+
+            @include lg-max {
+                width: 56px;
+                height: 46px;
+            }
+        }
+
+        &__airbnb {
+            width: 60px;
+            height: 64px;
+
+            @include lg-max {
+                width: 47px;
+                height: 51px;
+            }
+        }
+
+        &__ibm {
+            width: 149px;
+            height: 60px;
+
+            @include lg-max {
+                width: 83px;
+                height: 33px;
+            }
+        }
+
+    }
+
+    &__link {
+        margin-top: 50px;
+        padding-bottom: 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+    &__button {
+        padding: 10px 30px;
+    }
+
+}
